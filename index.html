@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>Sarvamangal Yatra | Taxi, Cab & Outstation Service in Mumbai</title>
+	<meta name="description" content="Reliable taxi, cab, airport transfer and outstation services in Mumbai, Mira Road, Thane. Clean cars, professional drivers, transparent pricing. Book instantly via call or WhatsApp." />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+	<link rel="icon" href="Logo.jpg" />
+	<link rel="stylesheet" href="styles.css" />
+	<meta name="theme-color" content="#0a2a6b" />
+
+	<!-- Open Graph -->
+	<meta property="og:title" content="Sarvamangal Yatra | Taxi, Cab & Outstation" />
+	<meta property="og:description" content="Mumbai-based taxi and outstation service. Safe. On-time. Affordable." />
+	<meta property="og:image" content="Logo.jpg" />
+	<meta property="og:type" content="website" />
+	<meta property="og:locale" content="en_IN" />
+
+	<!-- JSON-LD Schema for TaxiService -->
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "TaxiService",
+	  "name": "Sarvamangal Yatra",
+	  "image": [
+	    "Logo.jpg"
+	  ],
+	  "areaServed": ["Mumbai", "Thane", "Mira Road", "Navi Mumbai", "Maharashtra"],
+	  "serviceType": ["Local Taxi", "Outstation", "Airport Transfer", "Hourly Rental"],
+	  "address": {
+	    "@type": "PostalAddress",
+	    "streetAddress": "Flat No. 401, Pawan CHS, Shanti Nagar, Shanti Nagar High School, Mira",
+	    "addressLocality": "Thane",
+	    "addressRegion": "MH",
+	    "postalCode": "401107",
+	    "addressCountry": "IN"
+	  },
+	  "founder": "Owner",
+	  "url": "",
+	  "telephone": "+91 99982 81604"
+	}
+	</script>
+</head>
+<body>
+	<header class="site-header">
+		<div class="container header-inner">
+			<a class="brand" href="#home">
+				<img src="Logo.jpg" alt="Sarvamangal Yatra logo" class="brand-logo" />
+				<div class="brand-text">
+					<strong>Sarvamangal Yatra</strong>
+					<span>Taxi • Cab • Outstation</span>
+				</div>
+			</a>
+			<nav class="nav">
+				<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+				<ul class="nav-list">
+					<li><a href="#services">Services</a></li>
+					<li><a href="#fleet">Fleet</a></li>
+					<li><a href="#booking">Book</a></li>
+					<li><a href="#testimonials">Reviews</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<div class="header-cta">
+				<a class="btn btn-primary" href="tel:+919998281604">Call Now</a>
+				<a class="btn btn-whatsapp" target="_blank" rel="noopener" href="https://wa.me/919998281604?text=Hi%20Sarvamangal%20Yatra%2C%20I%27d%20like%20to%20book%20a%20cab.">WhatsApp</a>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section id="home" class="hero">
+			<div class="container hero-inner">
+				<div class="hero-copy">
+					<h1>Reliable Taxi & Outstation Rides in Mumbai</h1>
+					<p>Clean cars. Professional drivers. Transparent pricing. On-time pickups in Mumbai, Thane, Mira Road and beyond.</p>
+					<div class="hero-actions">
+						<a href="#booking" class="btn btn-primary">Book a Cab</a>
+						<a href="#services" class="btn btn-ghost">Explore Services</a>
+					</div>
+					<ul class="trust-badges">
+						<li>24x7 Support</li>
+						<li>GPS-Enabled</li>
+						<li>Sanitized Cars</li>
+						<li>Pan-India Permits</li>
+					</ul>
+				</div>
+				<form id="booking" class="booking-card" autocomplete="on">
+					<h2>Quick Booking</h2>
+					<div class="form-grid">
+						<label>
+							<span>Pickup Location</span>
+							<input required name="pickup" placeholder="e.g., Mira Road Station" />
+						</label>
+						<label>
+							<span>Drop Location</span>
+							<input required name="drop" placeholder="e.g., Mumbai Airport T2" />
+						</label>
+						<label>
+							<span>Date</span>
+							<input required type="date" name="date" />
+						</label>
+						<label>
+							<span>Time</span>
+							<input required type="time" name="time" />
+						</label>
+						<label>
+							<span>Trip Type</span>
+							<select name="tripType">
+								<option>Local</option>
+								<option>Outstation One-way</option>
+								<option>Outstation Round-trip</option>
+								<option>Airport Transfer</option>
+								<option>Hourly Rental</option>
+							</select>
+						</label>
+						<label>
+							<span>Car Type</span>
+							<select name="carType">
+								<option>Hatchback</option>
+								<option>Sedan</option>
+								<option>SUV</option>
+								<option>Premium</option>
+							</select>
+						</label>
+						<label class="span-2">
+							<span>Your Name</span>
+							<input required name="name" />
+						</label>
+						<label>
+							<span>Phone</span>
+							<input required type="tel" name="phone" pattern="[0-9]{10}" placeholder="10-digit number" />
+						</label>
+						<label>
+							<span>Notes (optional)</span>
+							<input name="notes" placeholder="Luggage, baby seat, etc." />
+						</label>
+					</div>
+					<div class="form-actions">
+						<button type="submit" class="btn btn-primary">Get Quote on WhatsApp</button>
+						<a class="btn btn-ghost" href="tel:+919998281604">Or Call Us</a>
+					</div>
+				</form>
+			</div>
+		</section>
+
+		<section id="services" class="section">
+			<div class="container">
+				<h2 class="section-title">Our Services</h2>
+				<div class="cards">
+					<article class="card">
+						<h3>Local City Rides</h3>
+						<p>Point-to-point or hourly rentals within Mumbai, Thane, Mira Road. Instant pickups.</p>
+					</article>
+					<article class="card">
+						<h3>Outstation Trips</h3>
+						<p>One-way or round-trip to Pune, Nashik, Lonavala, Mahabaleshwar, Shirdi and more.</p>
+					</article>
+					<article class="card">
+						<h3>Airport Transfers</h3>
+						<p>On-time pickups to/from CSMIA T1/T2 and Navi Mumbai airport with live tracking.</p>
+					</article>
+					<article class="card">
+						<h3>Corporate & Events</h3>
+						<p>Chauffeur-driven cars for meetings, weddings, shoots and VIP movement.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="fleet" class="section alt">
+			<div class="container">
+				<h2 class="section-title">Our Fleet</h2>
+				<div class="fleet-video-container">
+					<video 
+						muted 
+						playsinline 
+						autoplay
+						loop
+						poster="Screenshot 2025-09-12 113434.png"
+						class="fleet-video">
+						<source src="WhatsApp Video 2025-09-12 at 11.57.19_c3cfadfc.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+					</video>
+					<div class="fleet-info">
+						<h3>Premium Toyota Innova Fleet</h3>
+						<p>Experience comfort and reliability with our well-maintained Toyota Innova vehicles. Perfect for family trips, corporate travel, and outstation journeys.</p>
+						<ul class="fleet-features">
+							<li>✓ Spacious 7-seater capacity</li>
+							<li>✓ Air conditioning & comfortable seating</li>
+							<li>✓ Well-maintained & regularly serviced</li>
+							<li>✓ Professional & experienced drivers</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="testimonials" class="section">
+			<div class="container">
+				<h2 class="section-title">What Customers Say</h2>
+				<div class="cards">
+					<article class="card quote">
+						<p>“On-time and super professional. My go-to for airport runs.”</p>
+						<div class="quote-meta">— A. Verma</div>
+					</article>
+					<article class="card quote">
+						<p>“Clean car, courteous driver, fair pricing. Highly recommended.”</p>
+						<div class="quote-meta">— R. Mehta</div>
+					</article>
+					<article class="card quote">
+						<p>“Used for Pune one-way. Smooth ride and safe driving.”</p>
+						<div class="quote-meta">— S. Khan</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="section alt">
+			<div class="container contact-grid">
+				<div>
+					<h2 class="section-title">Contact Us</h2>
+					<p>
+						Flat No. 401, Pawan CHS, Shanti Nagar, Shanti Nagar High School, Mira, Thane- 401107
+					</p>
+					<div class="contact-details">
+						<div class="contact-item">
+							<strong>Phone/WhatsApp:</strong> +91 99982 81604
+						</div>
+						<div class="contact-item">
+							<strong>Email:</strong> <a href="mailto:sarvamangalyatra24@gmail.com">sarvamangalyatra24@gmail.com</a>
+						</div>
+					</div>
+					<div class="contact-actions">
+						<a class="btn btn-primary" href="tel:+919998281604">Call</a>
+						<a class="btn btn-whatsapp" target="_blank" rel="noopener" href="https://wa.me/919998281604?text=Hi%20Sarvamangal%20Yatra%2C%20I%20want%20to%20book%20a%20cab">WhatsApp</a>
+						<a class="btn btn-ghost" href="mailto:sarvamangalyatra24@gmail.com">Email</a>
+						<a class="btn btn-ghost" target="_blank" rel="noopener" href="https://maps.google.com/?q=Flat%20No.%20401%2C%20Pawan%20CHS%2C%20Shanti%20Nagar%2C%20Shanti%20Nagar%20High%20School%2C%20Mira%2C%20Thane-%20401107">Open in Maps</a>
+					</div>
+				</div>
+				<div class="map-embed">
+					<iframe title="Map" loading="lazy" allowfullscreen referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Flat%20No.%20401%2C%20Pawan%20CHS%2C%20Shanti%20Nagar%2C%20Shanti%20Nagar%20High%20School%2C%20Mira%2C%20Thane-%20401107&output=embed"></iframe>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="faq" class="section alt">
+			<div class="container">
+				<h2 class="section-title">Frequently Asked Questions</h2>
+				<div class="faq-grid">
+					<div class="faq-item">
+						<h3>How do I book a cab?</h3>
+						<p>Call or WhatsApp us at +91 99982 81604. You can also use our booking form above for instant quotes.</p>
+					</div>
+					<div class="faq-item">
+						<h3>Do you provide outstation services?</h3>
+						<p>Yes! We offer one-way and round-trip outstation services to Pune, Nashik, Lonavala, Mahabaleshwar, Shirdi, and other destinations.</p>
+					</div>
+					<div class="faq-item">
+						<h3>What are your operating hours?</h3>
+						<p>We operate 24x7 for your convenience. Emergency rides and airport transfers are available round the clock.</p>
+					</div>
+					<div class="faq-item">
+						<h3>Do you have GPS tracking?</h3>
+						<p>Yes, all our vehicles are GPS-enabled. We provide live tracking for airport transfers and long-distance trips.</p>
+					</div>
+					<div class="faq-item">
+						<h3>What payment methods do you accept?</h3>
+						<p>We accept cash, UPI, and digital payments. Corporate clients can avail monthly billing options.</p>
+					</div>
+					<div class="faq-item">
+						<h3>Are your cars sanitized?</h3>
+						<p>Absolutely! All vehicles are thoroughly sanitized after each trip. We maintain high hygiene standards for your safety.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<!-- Floating CTAs -->
+	<div class="floating-ctas">
+		<a href="tel:+919998281604" class="floating-btn call" aria-label="Call Now">
+			<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+			</svg>
+		</a>
+		<a href="https://wa.me/919998281604?text=Hi%20Sarvamangal%20Yatra%2C%20I%20want%20to%20book%20a%20cab" class="floating-btn whatsapp" aria-label="WhatsApp">
+			<svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+				<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+			</svg>
+		</a>
+	</div>
+
+	<footer class="site-footer">
+		<div class="container footer-inner">
+			<div class="footer-brand">
+				<img src="Logo.jpg" alt="Sarvamangal Yatra" />
+				<div>
+					<strong>Sarvamangal Yatra</strong>
+					<div>Taxi • Cab • Outstation</div>
+				</div>
+			</div>
+			<div class="footer-meta">
+				<div>GST/Reg No: —</div>
+				<div>Call/WhatsApp: +91 99982 81604</div>
+				<div>Email: sarvamangalyatra24@gmail.com</div>
+			</div>
+			<div class="footer-sign">
+				<img src="signature.jpg" alt="Owner Signature" />
+				<small>Owner Signature</small>
+			</div>
+		</div>
+		<div class="container footer-bottom">
+			<small>© <span id="year"></span> Sarvamangal Yatra. All rights reserved.</small>
+			<div class="socials">
+				<a aria-label="WhatsApp" target="_blank" rel="noopener" href="https://wa.me/919998281604">WhatsApp</a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
