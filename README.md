@@ -56,6 +56,9 @@ Sarvamangal Yatra/
 - Edge (latest)
 - Mobile browsers
 
+## 🌐 Live Website
+**Live Demo:** [https://balkrishna09.github.io/Sarvamangal-Yatra/](https://balkrishna09.github.io/Sarvamangal-Yatra/)
+
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -147,6 +150,11 @@ For technical support or customization requests:
 This website is proprietary to Sarvamangal Yatra. All rights reserved.
 
 ## 🚀 Deployment
+
+### GitHub Pages (Current)
+- **Repository:** [https://github.com/balkrishna09/Sarvamangal-Yatra](https://github.com/balkrishna09/Sarvamangal-Yatra)
+- **Live Website:** [https://balkrishna09.github.io/Sarvamangal-Yatra/](https://balkrishna09.github.io/Sarvamangal-Yatra/)
+- **Settings:** [https://github.com/balkrishna09/Sarvamangal-Yatra/settings/pages](https://github.com/balkrishna09/Sarvamangal-Yatra/settings/pages)
 
 ### For Production
 1. Upload all files to your web hosting
